@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<div class='col-lg-8 containerForCustomer'>
+
+		<div class='row btns-ForCustomer'>
+			<a href='#' class='btn-toBook'>
+				<span class='iconToBook'></span>
+				<span class='textToBook'>Забронировать столик</span>
+			</a>
+			<a href='#' class='btn-toOrder'>
+				<span class='iconToOrder'></span>
+				<span class='textToOrder'>Заказать банкет</span>
+			</a>
+		</div>
+
+	<form>
+		<div class='row main-ForCustomer'>
+			<div class='row form-ForCustomer no-margin'>
+				<div class='branchForm'>
+					<label for='data'>Дата</label>
+					<input placeholder="Сегодня, 6 сентября" type='text' name='data' id='data'>
+				</div>
+				<div class='branchForm'>
+					<label for='time'>Время</label>
+					<select id='time'>
+						<option value='15'>15:00</option>
+						<option value='16'>16:00</option>
+					</select>
+				</div>
+				<div class='branchForm'>
+					<label for='countPeople'>Количество гостей</label>
+					<select id='countPeople'>
+						<option value='1'>1 человек</option>
+						<option value='2' selected>2 человека</option>
+						<option value='3'>3 человек</option>
+					</select>
+				</div>
+			</div>
+			<div class='row mainBtn-ForCustomer no-margin'>
+				<a href='#'>Забронировать</a>
+				<div class='mainDiscount'>Со скидкой 30%</div>
+			</div>
+		</div>
+	</form>
+
+		<div class='discount'>
+			<div>Скидка</div>
+			<div>30%</div>
+		</div>
+	</div>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script> 
+    + sass / less также не пригодились-->
+</body>
+</html>
